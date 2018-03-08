@@ -5,3 +5,9 @@ node_js:
   - "6"
 services:
   - redis-server
+env:
+  global:
+    - secure: iXqtK8E0cKg45IAw7RI9dGuXTnior61trwLQyT1htWy0TxvoJfZLIoD+gg41mHpnlv5uGUsm8TIuxJnQSh5pWPDmnjZMvZQ0Y2blTfhhkLpjmXhQB3QoywVOfycjPUOzz6uKIpLCeZ7Jdf4wSvWKcMGY4IyOjG2jxrI48XqAvMN1HutSw/DRmqWTBHKIwRnrEXCusOC8sB/2kLMV/ct1sOoOFYHW2E1wiScbm1N6e6uAfgFKd+k6+aogWqNndcEHjygqo+Np86orcvCGp3Q+ITMQUabgRlgDxDQ0xAmG8jsuhfS6XhGmNXmyPZD5YJf0D2jKjYxSXlMMnsc+odCZaMSVK1e140XkRovnZLEYmVIzsihGStU/xtWsRmLhW5hbqAhrFl8ToyiuUvRYaUu6csZC1SYYqEYcrKA9DH5/B1cHEfye/PwtUPf0hjKsb2aRNoCYrJrZAQ53sLtMMerXWs4dZrFL4gsvFoUeIVio202v78ccbxpDfOUojNCyswTmrKbr2z3ipJ3dtUv4dh4ICeyMF8OBGS4wWy7RH/OscW0r59K3ED3jzHy7vs16WiBZ4IgQg4t2hf7CyQ+8y+Bf3X8/aaTQ2y2DUtMxFkrhUg/RWTagIMySVwaTPAzUeZnYwqCPKSnR9I+Ovnx4+HSsrGnGj5VWK7Dj6yvh5UX+n20=
+after_success:
+  - npm install -g codeclimate-test-reporter
+  - codeclimate-test-reporter < ./coverage.lcov
