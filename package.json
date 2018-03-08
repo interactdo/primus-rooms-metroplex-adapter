@@ -1,6 +1,6 @@
 {
   "name": "primus-rooms-metroplex-adapter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "primus-rooms adapter for metroplex",
   "main": "index.js",
   "scripts": {
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "async": "^2.6.0",
-    "ioredis": "^3.2.2",
+    "ioredis": "*",
     "lodash": "^4.17.5",
     "primus-rooms-adapter": "^0.3.2"
   }
