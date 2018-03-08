@@ -5,7 +5,7 @@
 Adapter for [`primus-room`](https://github.com/cayasso/primus-rooms)
 
 * Backed by redis
-* Depends on [`metroplex`](https://github.com/primus/metroplex), [`omega-supreme`](https://github.com/primus/omega-supreme/),
+* Depends on [`metroplex`](https://github.com/primus/metroplex) & [`omega-supreme`](https://github.com/primus/omega-supreme/)
 * Sets expired keys, so it can gracefully recover if a server goes down
 * Uses `scan` and `sscan` to avoid blocking the server for large datasets
 
