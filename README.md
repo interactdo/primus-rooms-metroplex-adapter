@@ -1,6 +1,6 @@
 # primus-rooms-metroplex-adapter
 
-![Build Status](https://travis-ci.org/thomasdashney/primus-rooms-metroplex-adapter.svg?branch=master)
+[![Build Status](https://travis-ci.org/thomasdashney/primus-rooms-metroplex-adapter.svg?branch=master)](https://travis-ci.org/thomasdashney/primus-rooms-metroplex-adapter)
 
 Adapter for [`primus-room`](https://github.com/cayasso/primus-rooms)
 
