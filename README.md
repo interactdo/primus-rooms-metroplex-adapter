@@ -1,6 +1,8 @@
 # primus-rooms-metroplex-adapter
 
 [![Build Status](https://travis-ci.org/thomasdashney/primus-rooms-metroplex-adapter.svg?branch=master)](https://travis-ci.org/thomasdashney/primus-rooms-metroplex-adapter)
+[![NPM version](https://img.shields.io/npm/v/primus-rooms-metroplex-adapter.svg)](https://www.npmjs.com/package/primus-rooms-metroplex-adapter)
+
 
 Adapter for [`primus-room`](https://github.com/cayasso/primus-rooms)
 
