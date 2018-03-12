@@ -1,6 +1,6 @@
 {
   "name": "primus-rooms-metroplex-adapter",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "primus-rooms adapter for metroplex",
   "main": "index.js",
   "scripts": {
