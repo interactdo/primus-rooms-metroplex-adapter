@@ -4,7 +4,7 @@
   "description": "primus-rooms adapter for metroplex",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test nyc --reporter=text-lcov > coverage.lcov mocha --exit",
+    "test": "NODE_ENV=test nyc mocha --reporter spec --recursive --exit",
     "posttest": "standard"
   },
   "repository": {
@@ -34,5 +34,11 @@
     "ioredis": "*",
     "lodash": "^4.17.5",
     "primus-rooms-adapter": "^0.3.2"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
   }
 }
